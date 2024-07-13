@@ -1,0 +1,40 @@
+#container{
+    height: 60vh;
+    width: 30vw;
+    background-image: url('./clock.png');
+    background-size: 100% 100%;
+    margin: auto;
+    border: 2px solid black;
+    position: relative;
+    top: 15vh;
+}
+
+#hr, #min, #sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hr{
+    height: 17vh;
+    width: 0.5vw;
+    top: 13vh;
+    left: 14.7vw;
+}
+
+#min{
+    height: 20vh;
+    width: 0.4vw;
+    top: 10vh;
+    left: 14.7vw;
+}
+
+#sec{
+    height: 24vh;
+    width: 0.3vw;
+    top: 6vh;
+    left: 14.8vw;
+}
+
+
